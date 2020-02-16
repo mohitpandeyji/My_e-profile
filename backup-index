@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/c.PNG">
+	<title>Mohit Pandey</title>
+<!--meta_tags-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+  <!-- Custom-Style-Sheet -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/><!--style_sheet-->
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome_Icons-CSS -->
+	<link href="//fonts.googleapis.com/css?family=Questrial" rel="stylesheet"><!--online_fonts-->
+	<link href="//fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<!--//Custom-Style-Sheet -->
+</head>
+<body>
+<h1><span class="w3l-try">m</span>y  pr<span class="w3l-try">o</span>file wi<span class="w3l-try">d</span>get</h1>
+<div class="w3ls-agile-profile">
+	<div class="container">
+		<h2 class="w3ls-me">Hi!, I am Mohit Pandey</h2>
+		<P> Python Developer, Django Developer</p>
+		<h3 class="w3ls-text">I'm <span class="w3l-try"> Data Science Enthusiast</span> & <span class="w3l-try1"> Software </span>Developer</h3>
+		<div id="typed-strings" class="agileits_w3layouts_strings">
+			<p>A <i><span class="w3l-try">Python </span>Developer</i></p>
+			<p>A <i><span class="w3l-try">Django </span>Developer</i></p>
+			<p>A <i><span class="w3l-try">Flask</span>Developer</i></p>
+			<p>A <i><span class="w3l-try">Data-Science and Machine Learning </span> Enthusiast</i></p>
+		</div>
+		<span id="typed" style="white-space:pre;"></span>
+		<p class="w3ls-p">An interactive designer with the passion for creativity</p>
+		<a href="#small-dialog1" class="buy btn-wayra w3_play_icon1">About Me</a>
+	</div>
+</div>
+<div class="w3_agileits_social_media">
+	<ul>
+		<li><a href="https://www.facebook.com/mohit.pandey.750546" target="_blank" class="wthree_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href="https://twitter.com/mohitpandeyji13" target="_blank" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+		<li><a href="https://www.linkedin.com/in/mohitpandeyji/" target="_blank" class="wthree_dribbble"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+		<li><a href="https://www.instagram.com/mohitpandeyji/" target="_blank" class="wthree_behance"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		<li><a href="https://github.com/mohitpandeyji" target="_blank" class="wthree_dribbble"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+	</ul>
+</div>
+<!--pop-up-->
+<div id="small-dialog1" class="mfp-hide">
+	<div class="about" id="about">
+			<div class="person-info-agileits-w3layouts">
+			<h3 class="w3_head w3_head1">About Me <span>I'm a Python Developer</span></h3>
+			<p><span>Hi!</span>, I am Mohit Pandey, I have 2.2 years of IT experience with E-commerce platform, Web Development, Data visualization, and New Techonologies.</br>
+			<b><span>JOB RELATED SKILLS</span>:</b>currently working on Python, Django, flask, jinja , Django Rest framework, postgres, mongodb
+                and Having Skills in :
+                1-Data Science [numpy,matplotlib,pandas,scrapy...etc],
+                2-NLTK,
+				3-Machine Learning- supervised learning [ Regression, Classification, etc]
+				4-Real time object detection using tensor flow.
+				5-Node js,Express js,HTML5,CSS3
+				beginner in AI/ML. work in a team with Agile methodology.
+			</p>
+				<ul>
+					<li><span>Name</span>: Mohit Pandey</li>
+					<li><span>Age</span>: 23 Years</li>
+					<li><span>Experience</span>: +2.2 Years</li>
+					<li><span>Email</span>: <a href="mailto:mohitpandej13@gmail.com">mohitpandeyji13@gmail.com</a></li>
+					<li><span>Phone</span>: +91-7983186315</li>
+					<li><span>Address</span>: Mohali Punjab</li>
+					<li><a href="https://drive.google.com/" target="_blank" class="botton-w3ls">Download CV</a>
+						<a href="https://www.linkedin.com/in/mohitpandeyji/" target="_blank" class="botton-w3ls">know more</a>
+					</li>
+				</ul>
+			</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<!--<footer>&copy; 2019::2020 All Rights Reserved </footer>-->
+<!--//pop-up-->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- pop-up-box-js-file -->
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<!--//pop-up-box-js-file -->
+<script>
+	$(document).ready(function() {
+	$('.w3_play_icon,.w3_play_icon1,.w3_play_icon2').magnificPopup({
+		type: 'inline',
+		fixedContentPos: false,
+		fixedBgPos: true,
+		overflowY: 'auto',
+		closeBtnInside: true,
+		preloader: false,
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-zoom-in'
+	});
+     });
+</script>
+<!-- banner-type-text -->
+	<script src="js/typed.js" type="text/javascript"></script>
+  <script>
+		$(function(){
+			$("#typed").typed({
+			// strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+			stringsElement: $('#typed-strings'),
+			typeSpeed: 30,
+			backDelay: 500,
+			loop: false,
+			contentType: 'html', // or text
+			// defaults to false for infinite loop
+			loopCount: false,
+			callback: function(){ foo(); },
+			resetCallback: function() { newTyped(); }
+			});
+			$(".reset").click(function(){
+				$("#typed").typed('reset');
+			});
+		});
+		function newTyped(){ /* A new typed object */ }
+		function foo(){ console.log("Callback"); }
+    </script>
+<!-- //banner-type-text -->
+</body>
+</html>
